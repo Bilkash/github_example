@@ -1,0 +1,24 @@
+.wrapper {
+  margin: 0 15px 0 15px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search_input {
+  width: 80%;
+}
+
+.search_button {
+  width: 20%;
+}
+
+.results {
+  margin-top: 10px;
+  height: 140px;
+}

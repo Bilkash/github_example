@@ -1,0 +1,21 @@
+.mainInfo {
+  display: flex;
+  margin-top: 10px;
+}
+
+.avatar {
+  width: 50%;
+}
+
+.info {
+  font-size: 12px;
+  margin-left: 5px;
+
+  div {
+    margin-top: 5px;
+  }
+}
+
+.bio {
+  margin: 15px 0;
+}

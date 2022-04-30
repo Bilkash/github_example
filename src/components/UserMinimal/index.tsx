@@ -1,7 +1,7 @@
 import React, {Dispatch, SetStateAction} from "react";
 import {User} from "@saber2pr/types-github-api";
 
-import "./UserMinimal.scss";
+import "./index.scss";
 
 type UserMinimalType = {
 	user: User,

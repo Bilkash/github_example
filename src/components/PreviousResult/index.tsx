@@ -1,6 +1,6 @@
 import React, {Dispatch, SetStateAction, useEffect, useState} from "react";
 import {User} from "@saber2pr/types-github-api";
-import UserMinimal from "./UserMinimal";
+import UserMinimal from "../UserMinimal";
 
 type PreviousResultType = {
 	setUser: Dispatch<SetStateAction<string>>,

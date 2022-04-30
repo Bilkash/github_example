@@ -7,9 +7,9 @@ import React, {
 } from "react";
 import {User} from "@saber2pr/types-github-api";
 import axios from "axios";
-import Repositories from "../components/Repositories";
+import Repositories from "../Repositories";
 
-import "./Second.scss";
+import "./index.scss";
 
 type Second = {
 	user: string,

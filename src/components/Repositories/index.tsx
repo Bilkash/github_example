@@ -2,7 +2,7 @@ import React, {useCallback, useEffect, useState} from "react";
 import {Repository} from "@saber2pr/types-github-api";
 import axios from "axios";
 
-import "./Repositories.scss";
+import "./index.scss";
 
 type RepositoriesType = {
     repos_url: string

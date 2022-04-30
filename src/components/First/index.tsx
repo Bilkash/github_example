@@ -7,10 +7,10 @@ import React, {
 } from "react";
 import {User} from "@saber2pr/types-github-api";
 import axios from "axios";
-import UserMinimal from "../components/UserMinimal";
-import PreviousResult from "../components/PreviousResult";
+import UserMinimal from "../UserMinimal";
+import Index from "../PreviousResult";
 
-import "./First.scss";
+import "./index.scss";
 
 type FirstTypes = {
 	setUser: Dispatch<SetStateAction<string>>,
@@ -82,7 +82,7 @@ export default function First({username, setUsername, setUser}: FirstTypes) {
 				{result && !error ? <UserMinimal user={result} setUser={setUser}/> : <div/>}
 			</div>
 
-			<PreviousResult setUser={setUser}/>
+			<Index setUser={setUser}/>
 
 			{error && <p>Error!</p>}
 		</div>   

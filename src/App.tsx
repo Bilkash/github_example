@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import First from "./pages/First";
-import Second from "./pages/Second";
+import First from "./components/First";
+import Second from "./components/Second";
 import Title from "./components/Title";
 
 import "./App.scss";
